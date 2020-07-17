@@ -1,0 +1,303 @@
+{
+  "roles": [
+    {
+      "shortname": "A",
+      "role_type": "Admin",
+      "access_points": "24",
+      "users": [
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"}
+      ],
+      "is_active": true
+    },
+    {
+      "shortname": "D",
+      "role_type": "Driver",
+      "access_points": "24",
+      "users": [
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"}
+      ],
+      "is_active": true
+    },
+    {
+      "shortname": "FM",
+      "role_type": "Fleet manager",
+      "access_points": "24",
+      "users": [
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"}
+      ],
+      "is_active": true
+    },
+    {
+      "shortname": "SA",
+      "role_type": "Super admin",
+      "access_points": "24",
+      "users": [
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"}
+      ],
+      "is_active": true
+    },
+    {
+      "shortname": "S",
+      "role_type": "Supervisor",
+      "access_points": "24",
+      "users": [
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"},
+        {"profile_pic": "profile"}
+      ],
+      "is_active": true
+    }
+  ],
+  "user_access": [
+    {
+      "description": "Home",
+      "iconName": "faHome",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Trips",
+      "iconName": "faMapMarkerAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": true,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Past Trips",
+      "iconName": "faMapMarkerAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Create a trip",
+      "iconName": "faMapMarkerAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Alerts",
+      "iconName": "faBell",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Alert management",
+      "iconName": "faBell",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Sensors",
+      "iconName": "faFileAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Add sensors",
+      "iconName": "faFileAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Routes",
+      "iconName": "faFileAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Add routes",
+      "iconName": "faFileAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Users",
+      "iconName": "faFileAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Add users",
+      "iconName": "faFileAlt",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Dashboard",
+      "iconName": "faChartBar",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Report",
+      "iconName": "faChartBar",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    },
+    {
+      "description": "Role settings",
+      "iconName": "faCog",
+      "supervisor": true,
+      "super_admin": true,
+      "fleet_manager": false,
+      "drive": true,
+      "admin": true
+    }
+  ],
+  "access_points": [
+    {
+      "description": "Home",
+      "iconName": "faHome",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Trips",
+      "iconName": "faMapMarkerAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Past Trips",
+      "iconName": "faMapMarkerAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Create a trip",
+      "iconName": "faMapMarkerAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Alerts",
+      "iconName": "faBell",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Alert management",
+      "iconName": "faBell",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Sensors",
+      "iconName": "faFileAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Add sensors",
+      "iconName": "faFileAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Routes",
+      "iconName": "faFileAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Add routes",
+      "iconName": "faFileAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Users",
+      "iconName": "faFileAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Add users",
+      "iconName": "faFileAlt",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Dashboard",
+      "iconName": "faChartBar",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Report",
+      "iconName": "faChartBar",
+      "mobile": true,
+      "web": true
+    },
+    {
+      "description": "Role settings",
+      "iconName": "faCog",
+      "mobile": true,
+      "web": true
+    }
+  ]
+}
